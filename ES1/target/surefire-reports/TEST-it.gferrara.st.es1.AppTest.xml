@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="it.gferrara.st.es1.AppTest" time="0.025" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="it.gferrara.st.es1.AppTest" time="0.032" tests="12" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/giuseppeferrara/Desktop/ES1/es1/target/test-classes:/Users/giuseppeferrara/Desktop/ES1/es1/target/classes:/Users/giuseppeferrara/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/giuseppeferrara/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="java.class.path" value="/Users/giuseppeferrara/Library/CloudStorage/OneDrive-UniversitàdiNapoliFedericoII/Magistrale/Software Testing/Esercitazioni/ES1/target/test-classes:/Users/giuseppeferrara/Library/CloudStorage/OneDrive-UniversitàdiNapoliFedericoII/Magistrale/Software Testing/Esercitazioni/ES1/target/classes:/Users/giuseppeferrara/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/giuseppeferrara/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IT"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/giuseppeferrara/Desktop/ES1/es1/target/surefire/surefirebooter5909944623426683287.jar /Users/giuseppeferrara/Desktop/ES1/es1/target/surefire 2023-05-11T09-19-40_303-jvmRun1 surefire12677419897374397938tmp surefire_03237962564441060970tmp"/>
+    <property name="sun.java.command" value="/Users/giuseppeferrara/Library/CloudStorage/OneDrive-UniversitàdiNapoliFedericoII/Magistrale/Software Testing/Esercitazioni/ES1/target/surefire/surefirebooter17001555700706817183.jar /Users/giuseppeferrara/Library/CloudStorage/OneDrive-UniversitàdiNapoliFedericoII/Magistrale/Software Testing/Esercitazioni/ES1/target/surefire 2023-05-16T18-48-44_155-jvmRun1 surefire15292073195850811863tmp surefire_011282861677164066653tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/giuseppeferrara/Desktop/ES1/es1/target/test-classes:/Users/giuseppeferrara/Desktop/ES1/es1/target/classes:/Users/giuseppeferrara/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/giuseppeferrara/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/giuseppeferrara/Library/CloudStorage/OneDrive-UniversitàdiNapoliFedericoII/Magistrale/Software Testing/Esercitazioni/ES1/target/test-classes:/Users/giuseppeferrara/Library/CloudStorage/OneDrive-UniversitàdiNapoliFedericoII/Magistrale/Software Testing/Esercitazioni/ES1/target/classes:/Users/giuseppeferrara/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/giuseppeferrara/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/giuseppeferrara/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/giuseppeferrara"/>
     <property name="user.language" value="it"/>
@@ -23,13 +23,13 @@
     <property name="java.version.date" value="2023-04-18"/>
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk/20.0.1/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/giuseppeferrara/Desktop/ES1/es1"/>
+    <property name="basedir" value="/Users/giuseppeferrara/Library/CloudStorage/OneDrive-UniversitàdiNapoliFedericoII/Magistrale/Software Testing/Esercitazioni/ES1"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/giuseppeferrara/Desktop/ES1/es1/target/surefire/surefirebooter5909944623426683287.jar"/>
+    <property name="surefire.real.class.path" value="/Users/giuseppeferrara/Library/CloudStorage/OneDrive-UniversitàdiNapoliFedericoII/Magistrale/Software Testing/Esercitazioni/ES1/target/surefire/surefirebooter17001555700706817183.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="20.0.1"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/2x/0_7pv8s514s24yvzp8wcybym0000gn/T/"/>
     <property name="java.version" value="20.0.1"/>
-    <property name="user.dir" value="/Users/giuseppeferrara/Desktop/ES1/es1"/>
+    <property name="user.dir" value="/Users/giuseppeferrara/Library/CloudStorage/OneDrive-UniversitàdiNapoliFedericoII/Magistrale/Software Testing/Esercitazioni/ES1"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -58,16 +58,16 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="test_next_1" classname="it.gferrara.st.es1.AppTest" time="0.011"/>
+  <testcase name="test_next_1" classname="it.gferrara.st.es1.AppTest" time="0.016"/>
   <testcase name="test_next_2" classname="it.gferrara.st.es1.AppTest" time="0.001"/>
   <testcase name="test_next_3" classname="it.gferrara.st.es1.AppTest" time="0"/>
-  <testcase name="test1" classname="it.gferrara.st.es1.AppTest" time="0"/>
-  <testcase name="test2" classname="it.gferrara.st.es1.AppTest" time="0.001"/>
-  <testcase name="test3" classname="it.gferrara.st.es1.AppTest" time="0.001"/>
+  <testcase name="test1" classname="it.gferrara.st.es1.AppTest" time="0.001"/>
+  <testcase name="test2" classname="it.gferrara.st.es1.AppTest" time="0"/>
+  <testcase name="test3" classname="it.gferrara.st.es1.AppTest" time="0"/>
   <testcase name="testRemove1" classname="it.gferrara.st.es1.AppTest" time="0.001"/>
   <testcase name="testRemove2" classname="it.gferrara.st.es1.AppTest" time="0"/>
-  <testcase name="testRemove3" classname="it.gferrara.st.es1.AppTest" time="0"/>
-  <testcase name="testRemove4" classname="it.gferrara.st.es1.AppTest" time="0.001"/>
+  <testcase name="testRemove3" classname="it.gferrara.st.es1.AppTest" time="0.001"/>
+  <testcase name="testRemove4" classname="it.gferrara.st.es1.AppTest" time="0"/>
   <testcase name="testRemove5" classname="it.gferrara.st.es1.AppTest" time="0"/>
-  <testcase name="testRemove6" classname="it.gferrara.st.es1.AppTest" time="0.001"/>
+  <testcase name="testRemove6" classname="it.gferrara.st.es1.AppTest" time="0"/>
 </testsuite>
